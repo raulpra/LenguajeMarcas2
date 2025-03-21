@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Online</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script2.js"></script>
 </head>
 <body>
+    <header>
+        <div class="nav_bar"> 
+            <div class="inicio_nav">
+                <a class="enlace" href="index.html"> INICIO</a>
+            </div>
+            <div class="menu_nav">
+                <nav>
+                    <ul class="lista_menu">
+                        <li><a class="enlace" href=""> PRODUCTOS </a></li>
+                        <li><a class="enlace" href=""> USUARIO </a></li>
+                        <li><a class="enlace" href=""> CARRITO </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     
+    <div class="busqueda">
+        <label>
+            <input type="text" placeholder="Artículos">
+        </label>
+        <button class="btn-buscar">Buscar</button>
+    </div>
+    <div class="principal">
+        <div id = "filters">
+            <div class = "filter-class">
+                <h3>Categorías</h3>
+                <label class="filter">
+                    <input type="checkbox" name="check" id = check> Men's clothing
+                </label>
+                <label class="filter">
+                    <input type="checkbox" name="check" id = check> Women's clothing
+                </label>
+                <label class="filter">
+                    <input type="checkbox" name="check" id = check> Jewelery
+                </label>
+                <label class="filter">
+                    <input type="checkbox" name="check" id = check> Electronics
+            </div>
+        </div>
+
+        <div id="lista_productos">
+            <div id="lista_productos_item">
+                
+                <!--<div class="card">
+                    <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+                    <h4>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h4>
+                    <h4>men's clothing</h4>
+                    <h4>109.95</h4>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <footer class="pie">
+        <p> @2025 Raúl Prada</p>
+    </footer>
+
 </body>
 </html>
